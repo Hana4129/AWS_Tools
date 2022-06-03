@@ -1,0 +1,14 @@
+########################################
+ readme
+########################################
+
+使用上の注意
+
+1.事前準備
+利用の為のライブラリインストール
+pip install boto3
+
+2.使用条件
+boto3 の利用にはAWSのAPI認証情報が必要 
+事前にAWSのAPI Keyの取得、およびCredintialの設定を行うこと。
+<https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-configure-envvars.html>
